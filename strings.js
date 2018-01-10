@@ -32,8 +32,10 @@ console.log(name.toUpperCase(), art.toLowerCase())
 
 let first = 'quincy'
 let last = 'williams'
-let upperFirst = first[0].toUpperCase()
+let upperFirst = first[0].toUpperCase() + first.substring(1)
+let upper = first[0].toUpperCase().concat(first.slice(1))
 
 console.log(upperFirst)
+console.log(upper)
 console.log(first[0].toUpperCase())
 console.log(last)
